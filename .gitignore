@@ -1,3 +1,7 @@
 node_modules/
 .npm
 .eslintcache
+
+#configs that shouldn't get pushed
+config.json
+seen.json
