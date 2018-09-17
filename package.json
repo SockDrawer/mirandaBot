@@ -4,7 +4,8 @@
   "description": "A bot that shares Miranda's morning and evening tweets to slack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.js"
   },
   "author": "",
   "license": "ISC",
