@@ -34,7 +34,7 @@ async function filterTweets(res) {
     //Remove the ones I have seen
     selectedTweets = selectedTweets.filter((tweet) => !seen.includes(tweet.id_str));
 
-    //get the IDs to favorite
+    //get the IDs to save
     tweetIDs = selectedTweets.map((tweet) => tweet.id_str);
 
     await persistSeen(tweetIDs);
