@@ -1,5 +1,5 @@
 const { WebClient } = require('@slack/client');
-const config = require('./config.json');
+const config = require('./config.js');
 
 const token = config.slack.token;
 const web = new WebClient(token);
